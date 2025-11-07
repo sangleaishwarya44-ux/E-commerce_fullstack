@@ -79,17 +79,17 @@ INSERT INTO categories (name, description) VALUES
 
 -- Insert sample products
 INSERT INTO products (name, description, price, category_id, stock_quantity, featured) VALUES
-('Smartphone X', 'Latest smartphone with advanced camera and processor', 799.99, 1, 50, TRUE),
-('Gaming Laptop', 'High-performance laptop for gaming and work', 1299.99, 1, 25, TRUE),
+('Smartphone X', 'Latest smartphone with advanced camera and processor', 17999.99, 1, 50, TRUE),
+('Gaming Laptop', 'High-performance laptop for gaming and work', 34999.99, 1, 25, TRUE),
 ('Wireless Headphones', 'Noise-cancelling wireless headphones', 199.99, 1, 100, FALSE),
-('Cotton T-Shirt', 'Comfortable 100% cotton t-shirt', 24.99, 2, 200, FALSE),
-('Designer Jeans', 'Premium quality denim jeans', 89.99, 2, 75, TRUE),
-('Winter Jacket', 'Warm and stylish winter jacket', 149.99, 2, 40, FALSE),
-('Bestseller Novel', 'Award-winning fiction novel', 14.99, 3, 150, TRUE),
-('Cookbook', 'Collection of delicious recipes', 29.99, 3, 80, FALSE),
-('Garden Tool Set', 'Complete gardening tool kit', 49.99, 4, 60, FALSE),
-('Indoor Plant', 'Beautiful indoor decorative plant', 34.99, 4, 30, TRUE),
-('Basketball', 'Professional quality basketball', 39.99, 5, 90, FALSE),
-('Yoga Mat', 'Non-slip premium yoga mat', 29.99, 5, 120, FALSE),
-('Skincare Set', 'Complete daily skincare routine', 79.99, 6, 70, TRUE),
-('Perfume', 'Luxury fragrance for everyday wear', 59.99, 6, 45, FALSE);
+('Cotton T-Shirt', 'Comfortable 100% cotton t-shirt', 224.99, 2, 200, FALSE),
+('Designer Jeans', 'Premium quality denim jeans', 289.99, 2, 75, TRUE),
+('Winter Jacket', 'Warm and stylish winter jacket', 349.99, 2, 40, FALSE),
+('Bestseller Novel', 'Award-winning fiction novel', 214.99, 3, 150, TRUE),
+('Cooking book', 'Collection of delicious recipes', 229.99, 3, 80, FALSE),
+('Garden Tool Set', 'Complete gardening tool kit', 149.99, 4, 60, FALSE),
+('Indoor Plant', 'Beautiful indoor decorative plant', 234.99, 4, 30, TRUE),
+('Basketball', 'Professional quality basketball', 139.99, 5, 90, FALSE),
+('Yoga Mat', 'Non-slip premium yoga mat', 129.99, 5, 120, FALSE),
+('Skincare Set', 'Complete daily skincare routine', 279.99, 6, 70, TRUE),
+('Perfume', 'Luxury fragrance for everyday wear', 259.99, 6, 45, FALSE);

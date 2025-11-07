@@ -23,7 +23,7 @@ const ProductCard = ({ product }) => {
         <div className="product-info">
           <h3 className="product-name">{product.name}</h3>
           <p className="product-category">{product.category_name}</p>
-          <p className="product-price">${product.price}</p>
+          <p className="product-price">₹{product.price}</p>
           <p className="product-stock">
             {product.stock_quantity > 0 ? 'In Stock' : 'Out of Stock'}
           </p>
